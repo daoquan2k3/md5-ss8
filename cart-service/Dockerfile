@@ -1,7 +1,7 @@
 # Stage 1: Build mã nguồn
 FROM eclipse-temurin:17-jdk-alpine AS builder
 WORKDIR /app
-COPY . .
+COPY .. .
 RUN ./gradlew bootJar
 
 # Stage 2: Runtime
