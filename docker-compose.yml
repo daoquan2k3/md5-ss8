@@ -7,7 +7,7 @@ services:
     environment:
       REPO_URL: "https://github.com/daoquan2k3/md5_ss7"
       RUNNER_NAME: "quickbite-server"
-      RUNNER_TOKEN: "BZK37Q4H5J53B566HP5SP73KN4KM4"
+      RUNNER_TOKEN: "BZK37QZUA3JW7UKSTJUEOELKN4QEK"
       RUNNER_LABELS: "quickbite-runner"
       RUNNER_WORKDIR: "/tmp/runner/work"
     volumes:
